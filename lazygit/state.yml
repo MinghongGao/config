@@ -1,0 +1,29 @@
+lastupdatecheck: 0
+recentrepos:
+- /Users/oliver.gao/.config
+- /Users/oliver.gao/projects/pca-nbn-data-breeze
+- /Users/oliver.gao/projects/pca-geoscape-data-breeze
+- /Users/oliver.gao/projects/pca-listings-crawler
+- /Users/oliver.gao/projects/pca-js-rendering-service
+- /Users/oliver.gao/projects/crawled-listings-db
+- /Users/oliver.gao/projects/pca-listings-crawler-scheduler
+- /Users/oliver.gao/projects/task-hatch-frontend
+- /Users/oliver.gao/projects/todo-next
+- /Users/oliver.gao/projects/pca-school-data-breeze
+- /Users/oliver.gao/projects/pca-property-data-api
+- /Users/oliver.gao/projects/pca-argonaut
+- /Users/oliver.gao/projects/pca-account-mfe
+- /Users/oliver.gao/projects/pca-home-mfe
+- /Users/oliver.gao/projects/pca-experience-api
+- /Users/oliver.gao/projects/iglu-server
+startuppopupversion: 5
+lastversion: 0.41.0
+customcommandshistory:
+- q
+hidecommandlog: false
+ignorewhitespaceindiffview: true
+diffcontextsize: 3
+localbranchsortorder: recency
+remotebranchsortorder: alphabetical
+gitlogorder: topo-order
+gitlogshowgraph: always
