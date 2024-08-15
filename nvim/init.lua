@@ -1,23 +1,7 @@
+require 'core.globals'
 require 'core.options'
-
--- Set <space> as the leader key
--- See `:help mapleader`
---  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
--- Disable netrw as file explorer, will use neo-tree instead through kickstart plugins.
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-
--- Set to true if you have a Nerd Font installed and selected in the terminal
-vim.g.have_nerd_font = true
-
--- [[ Setting options ]]
--- See `:help vim.opt`
--- NOTE: You can change these options as you wish!
---  For more options, you can see `:help option-list`
-
--- load custom keymaps
+require 'core.keymaps'
+require 'core.commands'
 require 'custom.keymaps'
 require 'custom.filetypes'
 
