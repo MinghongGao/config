@@ -1,7 +1,7 @@
-require 'core.globals'
-require 'core.options'
-require 'core.filetypes'
-require 'core.keymaps'
-require 'core.commands'
+require 'oliver.core.globals'
+require 'oliver.core.options'
+require 'oliver.core.filetypes'
+require 'oliver.core.keymaps'
+require 'oliver.core.commands'
 
-require 'lazy-setup'
+require 'oliver.lazy'
