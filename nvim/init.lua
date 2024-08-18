@@ -1,4 +1,3 @@
-require 'oliver.core.globals'
 require 'oliver.core.options'
 require 'oliver.core.filetypes'
 require 'oliver.core.keymaps'
