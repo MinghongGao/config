@@ -1,5 +1,5 @@
-vim.filetype.add {
-  filename = {
-    ['.cfnlintrc'] = 'yaml',
-  },
-}
+vim.filetype.add({
+   filename = {
+      [".cfnlintrc"] = "yaml",
+   },
+})
