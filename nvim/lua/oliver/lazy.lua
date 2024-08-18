@@ -13,32 +13,18 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = { { import = 'oliver.plugins' }, { import = 'oliver.plugins.lsp' } }
-local opts = {
+
+require('lazy').setup(plugins, {
   install = {
     colorscheme = {
       'catppuccin',
     },
   },
+  checker = {
+    enable = true,
+    notify = false,
+  },
   change_detection = {
     notify = false,
   },
-  ui = {
-    icons = vim.g.have_nerd_font and {} or {
-      cmd = '⌘',
-      config = '🛠',
-      event = '📅',
-      ft = '📂',
-      init = '⚙',
-      keys = '🗝',
-      plugin = '🔌',
-      runtime = '💻',
-      require = '🌙',
-      source = '📄',
-      start = '🚀',
-      task = '📌',
-      lazy = '💤 ',
-    },
-  },
-}
-
-require('lazy').setup(plugins, opts)
+})
