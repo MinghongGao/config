@@ -26,7 +26,6 @@ keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right window'
 keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
-keymap.set('n', '<leader>gg', '<cmd>!tmux popup -E -h 80\\% -w 80\\% -d ' .. vim.fn.getcwd() .. ' -- lazygit <CR><CR>', { desc = 'Go LazyGit' })
 keymap.set('n', '<leader>gt', '<cmd>!tmux popup -E -h 80\\% -w 80\\% -d ' .. vim.fn.getcwd() .. ' -- <CR><CR> ', { desc = 'Go to Terminal' })
 keymap.set('n', '<leader>md', '<cmd>Glow<CR>', { desc = 'Toggle Markdown' })
 keymap.set('n', '<leader>gb', '<cmd>Git blame<CR>', { desc = 'Toggle Git blame' })
