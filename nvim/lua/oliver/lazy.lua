@@ -12,9 +12,10 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-local plugins = { { import = 'oliver.plugins' }, { import = 'oliver.plugins.lsp' } }
-
-require('lazy').setup(plugins, {
+require('lazy').setup({
+  { import = 'oliver.plugins' },
+  { import = 'oliver.plugins.lsp' },
+}, {
   install = {
     colorscheme = {
       'catppuccin',

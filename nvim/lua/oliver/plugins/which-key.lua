@@ -1,6 +1,6 @@
 return {
-  "folke/which-key.nvim",
-  event = "VeryLazy",
+  'folke/which-key.nvim',
+  event = 'VeryLazy',
   init = function()
     vim.o.timeout = true
     vim.o.timeoutlen = 500
@@ -10,10 +10,9 @@ return {
     -- or leave it empty to use the default settings
     -- refer to the configuration section below
     spec = {
-      {"<leader>e", group = "File Explorer"},
-      {"<leader>f", group = "Find"},
-      {"<leader>x", group = "Trouble"},
-
-    }
+      { '<leader>e', group = 'File Explorer' },
+      { '<leader>f', group = 'Find' },
+      { '<leader>x', group = 'Trouble' },
+    },
   },
 }
