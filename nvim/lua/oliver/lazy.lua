@@ -15,6 +15,7 @@ vim.opt.rtp:prepend(lazypath)
 require('lazy').setup({
   { import = 'oliver.plugins' },
   { import = 'oliver.plugins.lsp' },
+  { import = 'oliver.custom_plugins' },
 }, {
   install = {
     colorscheme = {
