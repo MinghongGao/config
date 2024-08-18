@@ -4,7 +4,15 @@ return {
    version = "*",
    opts = {
       options = {
-         mode = "tabs",
+         mode = "buffers",
+         offsets = {
+            {
+               filetype = "NvimTree",
+               text = "File Explorer",
+               highlight = "Directory",
+               separator = true,
+            },
+         },
       },
    },
 }

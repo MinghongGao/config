@@ -13,6 +13,8 @@ return {
          { "<leader>e", group = "File Explorer" },
          { "<leader>f", group = "Find" },
          { "<leader>x", group = "Trouble" },
+         { "<leader>b", group = "Buffer" },
+         { "<leader>s", group = "Split" },
       },
    },
 }

@@ -35,3 +35,5 @@ keymap.set(
 keymap.set("n", "<leader>md", "<cmd>Glow<CR>", { desc = "Toggle Markdown" })
 keymap.set("n", "<leader>gb", "<cmd>Git blame<CR>", { desc = "Toggle Git blame" })
 keymap.set("n", "<leader>gp", "<cmd>GpChatNew popup<CR>", { desc = "Chatgpt new popup" })
+
+keymap.set("n", "<leader>bl", "<cmd>BufferLinePick<CR>", { desc = "Pick Buffer" })
