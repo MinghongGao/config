@@ -3,5 +3,11 @@ return {
    dependencies = {
       "leafo/magick",
    },
-   opts = {},
+   opts = {
+      integrations = {
+         markdown = {
+            enabled = false,
+         },
+      },
+   },
 }
